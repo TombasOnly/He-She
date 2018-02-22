@@ -32755,6 +32755,7 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Sprite.prototype.exps.UID,
 		cr.system_object.prototype.acts.SetGroupActive,
 		cr.system_object.prototype.acts.AddVar,
+		cr.behaviors.Fade.prototype.acts.StartFade,
 		cr.plugins_.GAMEEConnector.prototype.acts.GameOver,
 		cr.system_object.prototype.cnds.OnLayoutStart,
 		cr.system_object.prototype.acts.SetMinimumFramerate,
@@ -32766,8 +32767,7 @@ cr.getObjectRefTable = function () {
 		cr.system_object.prototype.acts.SetTimescale,
 		cr.plugins_.Audio.prototype.acts.SetPaused,
 		cr.plugins_.GAMEEConnector.prototype.cnds.boolean,
-		cr.plugins_.Audio.prototype.acts.StopAll,
-		cr.behaviors.Fade.prototype.acts.StartFade
+		cr.plugins_.Audio.prototype.acts.StopAll
 	];
 };
 
