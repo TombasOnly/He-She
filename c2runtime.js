@@ -32762,12 +32762,12 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.MagiCam.prototype.acts.CreateGlobalCamera,
 		cr.plugins_.Audio.prototype.acts.Play,
 		cr.plugins_.GAMEEConnector.prototype.cnds.onGameStart,
+		cr.plugins_.Audio.prototype.acts.StopAll,
 		cr.system_object.prototype.acts.RestartLayout,
 		cr.plugins_.GAMEEConnector.prototype.cnds.onInterruption,
 		cr.system_object.prototype.acts.SetTimescale,
 		cr.plugins_.Audio.prototype.acts.SetPaused,
-		cr.plugins_.GAMEEConnector.prototype.cnds.boolean,
-		cr.plugins_.Audio.prototype.acts.StopAll
+		cr.plugins_.GAMEEConnector.prototype.cnds.boolean
 	];
 };
 
